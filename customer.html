@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Clients Review UI </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="C:\Users\hp\Desktop\website1\sty.css">
+    <link rel="stylesheet" href=" C:\Users\hp\Desktop\website1\style.css">
+   
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">𝔇𝔞∯𝒹𝒾𝔩</a>
+        <nav class="bar">
+            <a href="C:\Users\hp\Desktop\website1\home.html">home</a>
+            <a href="C:\Users\hp\Desktop\website1\about.html">about</a>
+            <a href="C:\Users\hp\Desktop\website1\products.html">products</a>
+            <a href="C:\Users\hp\Desktop\website1\customer.html">customer</a>
+        </nav>
+        <button onclick="getLocation()">location</button>
+
+        <p id="demo"></p>
+        
+        <script>
+        const x = document.getElementById("demo");
+        
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          } else { 
+            x.innerHTML = "Geolocation is not supported by this browser.";
+          }
+        }
+        
+        function showPosition(position) {
+          x.innerHTML = "Latitude: " + position.coords.latitude + 
+          "<br>Longitude: " + position.coords.longitude;
+        }
+        </script>
+        
+    </header>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="700_F_279014242_ygKRjdtphutkzFGMTkKHsbFmjCjjlULa.mp4" >
+      </video>
+ 
+    <div class="container">
+        <h2>  Happy Clients </h2>
+        <p class="description">Les retours de nos clients sont unanimes : satisfaction totale ! Ils vantent la qualité exceptionnelle de nos produits et l'attention particulière apportée à leur service. Leurs avis positifs sont le reflet de notre engagement à offrir une expérience client irréprochable.</p>
+    
+        <!-- Clients Review -->
+        <div class="reviewSection">
+
+        <!-- Clients Review1   -->
+            <div class="reviewI">
+                <div class="top">
+                    <div class="clientIm">
+                        <img src="images.jpeg" >
+                        <span>Sophie L.</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                    </ul>
+                </div>
+                <article>
+                    <p class="review">Les fleurs que j'ai commandées chez Fleur Daffodil étaient tout simplement magnifiques ! 
+                        Elles ont ajouté une touche d'élégance à ma maison et ont été remarquées par tous mes invités. 
+                        Le service client était également exceptionnel, répondant rapidement à toutes mes questions.
+                         Je recommande vivement Fleur Daffodil !</p>
+                    <p>mars 15, 2024</p>
+                </article>
+            </div>
+
+        <!-- Clients Review2  -->
+            <div class="reviewI">
+                <div class="top">
+                    <div class="clientIm">
+                        <img src="téléchargement.jpeg" >
+                        <span>Antoine G.</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="far fa-heart"></i></li>
+                    </ul>
+                </div>
+                <article>
+                    <p class="review">J'ai reçu un magnifique bouquet de Fleur Daffodil pour mon anniversaire 
+                        et je n'aurais pas pu être plus heureux ! 
+                        Les fleurs étaient fraîches, bien arrangées et ont duré plus longtemps que prévu. 
+                        C'était une expérience vraiment agréable, et je vais certainement commander
+                         à nouveau chez Fleur Daffodil</p>
+                    <p>Jan 08, 2024</p>
+                </article>
+            </div>
+
+        <!-- Clients Review3   -->
+            <div class="reviewI">
+                <div class="top">
+                    <div class="clientIm">
+                        <img src="téléchargement (1).jpeg" >
+                        <span>Marie-Claire B</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="far fa-heart"></i></li>
+                        <li><i class="far fa-heart"></i></li>
+                    </ul>
+                </div>
+                <article>
+                <p class="review">J'ai commandé des fleurs pour la fête des mères chez Fleur Daffodil et ma mère a été absolument ravie !
+                     Le bouquet était spectaculaire, exactement comme sur la photo du site web. La livraison était également ponctuelle. 
+                    Merci Fleur Daffodil pour avoir rendu cette journée spéciale encore plus mémorable !</p>
+                    <p>Jun 10, 2024</p>
+                </article>
+            </div>
+             
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+

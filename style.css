@@ -1,0 +1,413 @@
+
+
+
+*{
+margin:0; 
+padding:0;
+font-family: Verdana,  Geneva, Tahoma, sans-serif;
+outline: none; 
+border: none;
+text-decoration: none;
+text-transform: capitalize;
+transition: .2s linear;
+
+}
+
+html {
+    font-size: 66.5%; 
+}
+section{
+    padding: 2rem 9%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+     right: 0;
+    background: rgb(7, 7, 7);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 2rem rgb(131, 131, 131);
+}
+header .logo{
+    font-size: 3rem;
+    color: rgb(248, 247, 243);
+    font-style: italic;
+    
+}
+
+header .bar a{
+    font-size: 1.5rem;
+    color: rgb(204, 202, 203);
+    padding: 14px  16px;
+    
+
+
+} 
+header .icon a {
+    font-size: 1.5rem;
+    color: rgb(190, 189, 190);
+    margin-left: 1.5rem;
+
+}
+header .icon i {
+    font-size: 1.5rem;
+    color: rgb(190, 189, 190);
+    margin-left: 1.7rem;
+    
+}
+input{
+    border-radius: 6px;
+    padding: 4px;
+}
+
+
+
+
+/* login*/
+ .login-bt {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 10px 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: rgb(250, 248, 249);
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(store-front-flower-shop_189959-4254.avif)no-repeat;
+    background-size: cover;
+    background-position: center ;
+    border: 50rem;
+}
+
+    
+.home .content{
+    max-width: 50rem;  
+    } 
+    
+    
+    .home .content h3{
+     font-size: 3.5rem;
+     color: #fca3ac;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+        }  
+    .home .content h5 {
+    font-size: 1.3rem;
+     color:  rgb(247, 243, 245);
+     margin: 0.5rem 0 1.4rem;
+     line-height: 1.9;
+    
+
+        }
+
+       .boutt{
+        display: inline-block;
+        margin-top: 1rem;
+        border-radius: 5rem;
+        background: #181818;
+        color: #fff;
+        padding:1rem 2rem ;
+        cursor: pointer;
+        font-size:1.5rem ;
+    
+    }
+
+    .boutt:hover{
+        background: palevioletred;
+
+    }
+
+
+
+
+
+
+
+
+    /*about us*/
+    .about{
+        background:url(dahlia-field-opener-948601ca-0820-2000-661e5f91fce64c66bb46211e2ff8cb41.jpg)no-repeat;
+     
+      
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center ;
+      
+
+    }
+    .head{
+text-align: center;
+font-size: 2.9rem;
+color:□#f5f1f1;
+padding:1rem;
+margin:2rem ;
+
+
+    }
+    .head span{
+color: #fca3ac;
+font-size: 1.9rem;
+
+    }
+    .about h1{
+        margin-top: 39px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .about .rw{
+        display: flex;
+        align-items: center;
+        gap:5rem;
+        flex-wrap: wrap;
+        padding:6rem 0;
+        padding-bottom:3rem;
+        background: #00000094;        }
+    
+
+    .about .rw .video{
+        flex:1 1 40rem ;
+        position: relative;
+        margin-left: 17PX;
+        
+        
+        
+        
+
+    
+    }
+
+    .about .rw .video video{
+      width:105%;
+      border-radius: 10px;
+  } 
+  
+
+
+    .about .rw .content{
+        flex: 9 9 50rem;
+        padding:2rem;
+      
+       
+
+    }
+    .about .rw .content h3{
+        font-size: 1.6rem;
+        color: #fffbfb;
+        font-style: italic; 
+        margin-top: 3px;
+        
+      
+        
+    }
+        
+        .about .rw .content p{
+        font-size: 1.2rem;
+        color: rgb(255, 255, 255);
+        padding-top: 1rem;
+        font-style: italic;
+        margin-top: 1px;
+        
+        }
+       
+          
+        
+
+
+
+        
+
+           
+
+        /*products*/
+        .products{
+            background:url(colore-nature-nuage-crepuscule-paysage_1203-5705.avif)no-repeat;
+            align-items: center;
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center ;
+        
+        }
+
+        .heading {
+       text-align: center;
+    }
+    .heading h2 {
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    color: white;
+    }
+    .heading span {
+        font-size: 1.9rem;
+        text-transform: uppercase;
+        color: #fca3ac;
+        }
+        .products-cont{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+    .products-cont .box {
+        position: relative;
+        padding: 10px;
+        display: flex;
+        background-color: #cccccc70;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0.5rem;
+        box-shadow:2px 2px 9px 4px rgba(0, 0, 0, 0.692) ;
+    }
+ 
+    .products-cont img {
+width: 100%;
+height: 250px;
+object-fit: contain;
+object-position: center;
+padding: 20px;
+background: ■#111111b2;
+border-radius: 0.5rem;
+}
+
+.products-cont .box h3 {
+font-size: 1.4rem;
+font-weight: 600;
+text-transform: uppercase;
+margin: 0.5rem 0 0.5rem;
+text-align: center;
+color: white;
+}
+.products-cont.box .content{
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+
+}
+.products-cont .box .content .price{
+ padding:1.4rem;
+ text-align: center;
+color: #05050591;
+font-size: 15px;
+font-weight: 500 ;
+
+}
+.products-cont .box .content .bt {
+padding: 0 3rem;
+font-size: 13px;
+color: rgb(12, 12, 12);
+border: 2px solid ;
+border-color:#fca3ac;
+border-radius: 4px;
+text-transform: uppercase;
+background:#fca3ac;
+
+
+
+}
+ .products-cont .box .content a:hover{
+background:rgb(243, 241, 237);
+color: rgb(59, 58, 58);
+transition: 0.2s all linear;
+ }
+ /*fin*/
+
+
+
+
+
+
+/*footer*/
+.footer {
+max-width: 968px;
+margin-left: auto;
+margin-right: auto;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+gap: 1rem;
+margin-top: 2rem;
+background-color: rgb(255, 255, 255);
+padding: 20px;
+}
+.footer-box{
+display: flex;
+flex-direction: column;
+}
+.footer-box p{
+font-size: 0.938rem;
+margin: 0.5rem 0 1rem;
+}
+ .Social {
+display: flex;
+align-items: center;
+column-gap: 0.5rem;
+ }
+.social i {
+padding: 10px;
+background: rgb(243, 239, 239);
+color: #fca3ac ;
+border-radius: 5rem;
+font-size: 20px;
+}
+.social i:hover {
+background: rgba(3, 46, 3, 0.61);
+color: beige;
+transition: 1s all linear;
+}
+.footer-box h2{
+font-size: 1.1rem;
+font-weight: 600;
+margin-bottom: 1rem;
+}
+/*logo*/
+.footer-box .logo {
+    color: rgb(15, 13, 13);
+    margin-bottom: 2rem;
+    font-size: 1.9rem;
+     }
+   
+     
+     /*fin*/
+
+ .footer-box a {
+color: rgb(116, 114, 114);
+margin-bottom: 1rem;
+ }
+.footer-box a:hover {
+color: rgb(240, 179, 232);
+}
+
+ .footer-box form {
+border-bottom: 1px solid pink;
+padding: 10px;
+display: flex;
+align-items: center;
+column-gap: 0.5rem;
+ }
+.footer-box form input {
+background: transparent;
+border: none;
+outline: none;
+}
+ .footer-box form i {
+font-size: 20px;
+color: rgb(243, 170, 219);
+cursor: pointer;
+ }
+
+
+
+/*fin*/
+
